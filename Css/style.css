@@ -1,0 +1,153 @@
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 900;
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Black.eot');
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb(FaNum)_Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb(FaNum)_Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb(FaNum)_Black.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Bold.eot');
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Medium.eot');
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Light.eot');
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb(FaNum)_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb(FaNum)_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 200;
+	src: url("../fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot");
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/eot/IRANSansWeb(FaNum).eot');
+	src: url('../fonts/eot/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb(FaNum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb(FaNum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+body{
+	background-image: url("../images/awards-bg.jpg");
+	background-color:#000:
+	font-size:100%;
+	font-family: IRANSans, 'Open Sans', sans-serif;
+}
+
+.main1{
+	position: fixed;
+	inset: 0px;
+
+	z-index: 1000;
+	background-color: rgba(0, 0, 0, 0.65);
+}
+
+.main{
+	background-color:#fff;
+	margin:50px auto;
+	float:none;
+	border-radius:15px 15px;
+    z-index: 10000;
+    overflow: auto;
+    text-align: center;
+	inset: 0px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.text h2{
+	text-align:center;
+	padding:10px 0;
+	font-size:18px;
+	font-weight:600;
+}
+
+.image{
+	width:16%;
+	margin:0 auto 20px;
+}
+
+.form{
+	text-align:center;
+}
+
+.email{
+	width:80%;
+	height:50px;
+	border-radius:12px 12px;
+	border:2px solid #f6f6f6;
+	font-size: 14px;
+    font-weight: 700;
+	padding:0 20px 0 0;
+	margin:0 0 15px 0;
+}
+
+.password{
+	width:80%;
+	height:50px;
+	border-radius:12px 12px;
+	border:2px solid #f6f6f6;
+	font-size: 14px;
+    font-weight: 700;
+	padding:0 20px 0 0;
+	margin:0 0 15px 0;
+}
+
+.forgot {
+	text-align:center;
+	font-size:16px;
+	font-weight:600;
+	margin:0;
+	color:#37b6ee;
+	padding: 0px 0 9px 0;
+}
+
+.forgot a:hover{
+	text-decoration:none;
+}
+
+.button{
+	text-align:center;
+	border-radius:12px 12px;
+	font-weight:600;
+	padding:9px 23px 9px 23px;
+}
+
+.button2{
+	text-align:center;
+	border-radius:12px 12px;
+	font-weight:600;
+	padding:9px 23px;
+	margin-bottom:10px;
+}
